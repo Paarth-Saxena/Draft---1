@@ -1,0 +1,155 @@
+@font-face {
+    font-family: myFont;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: myFont2;
+    src: url(Truculenta-VariableFont_opsz,wdth,wght.ttf);
+}
+body, h1, h2, h3, p, ul {
+    font-family: myFont2;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main {
+    border-radius: 30px;
+    background-color: #97E7E1;
+    padding: 50px;
+    text-align: center;
+}
+.gallery {
+    margin-top: 40px;
+}
+.gallery h2 {
+    margin-bottom: 20px;
+}
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    border-radius: 20px;
+    background-color: #6AD4DD;
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #7AA2E3;
+}
+.order-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7AA2E3;
+    border-radius: 5px;
+}
+
+.order-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form label {
+    margin-bottom: 5px;
+}
+
+.order-form input,
+.order-form textarea,
+.order-form select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.order-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.lens-image{
+    margin-top: 5px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+}
+.frame-image{
+    padding: 10px;
+    margin-top: 5px;
+    height: 100px;
+    width: 200px;
+}
+.orderbtn{
+    font-family: myFont2;
+}
+.shipType{
+    font-family: myFont2;
+}
+.bifocal{
+    height: 2px;
+    width: 190px;
+}
+.progressive{
+    height: 100px;
+    width: 200px;
+}
+.topPage{
+    background-color: #7AA2E3;
+}
+.heading{
+    font-weight: 900;
+    font-size: 60px;
+}
+.subheading{
+    font-weight: 500;
+    font-size: 20px;
+}
+.lenstitle{
+    font-weight: 400;
+    font-size: 40px;
+}
+.frametitle{
+    font-weight: 400;
+    font-size: 40px;
+}

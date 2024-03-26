@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyewear Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #F8F6E3;">
+    <header class="topPage">
+        <nav>
+            <ul>
+                <li class="toplist"><a href="#">Home</a></li>
+                <li class="toplist"><a href="#">Lenses</a></li>
+                <li class="toplist"><a href="#">Frames</a></li>
+                <li class="toplist"><a href="#" id="orderNowLink">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main">
+            <h1 class="heading">Welcome to Aye!Wear Store</h1>
+            <p class="subheading">Browse our collection of stylish and high-quality lenses and frames.</p>
+        </div>
+
+        <section class="gallery">
+            <section class="gallery">
+                <h2 class="lenstitle">Lenses</h2>
+                <div class="gallery-items">
+                    <div class="gallery-item">
+                        <img class="lens-image single" src="./images/frame2.png" alt="Lens 1">
+                        <h3 class="lenstext">Single Vision Lenses</h3>
+                        <p>₹1800/-</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="lens-image bifocal" src="./images/Bifocallens.jpg" alt="Lens 2">
+                        <h3 class="lenstext">Bifocal Lenses</h3>
+                        <p>₹3000/-</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="lens-image progressive" src="./images/progressive-lens.jpg" alt="Lens 3">
+                        <h3 class="lenstext">Progressive Lenses</h3>
+                        <p>₹4800/-</p>
+                    </div>
+                </div>
+    
+                <h2 class="frametitle">Frames</h2>
+                <div class="gallery-items">
+                    <div class="gallery-item">
+                        <img class="frame-image" src="./images/frame3.png" alt="Frame 1">
+                        <h3>Plastic Frames</h3>
+                        <p>₹750/-</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="frame-image" src="./images/frame4.png" alt="Frame 2">
+                        <h3>Metal Frames</h3>
+                        <p>₹1500/-</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="frame-image" src="./images/rimless-frame.png" alt="Frame 3">
+                        <h3>Rimless Frames</h3>
+                        <p>₹1800/-</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="order-form" id="orderForm">
+            <h2>Order Now!</h2>
+            <form onsubmit="submit()">
+                <label for="rightEyePower">Right Eye Power:</label>
+                <input type="text" id="rightEyePower" name="rightEyePower" required>
+
+                <label for="leftEyePower">Left Eye Power:</label>
+                <input type="text" id="leftEyePower" name="leftEyePower" required>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="shippingOption">Shipping Option:</label>
+                <select id="shippingOption" name="shippingOption">
+                    <option class="shipType" value="standard">Standard Shipping</option>
+                    <option class="shipType" value="fast">Fast Shipping</option>
+                </select>
+
+                <button style="background-color: #97E7E1;" class="orderbtn" type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Eyewear Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
